@@ -1,0 +1,337 @@
+
+h1, h2, h3, h4, h5, h6, p, ul, li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  img {
+    display: block;
+  }
+  .container {
+    position: relative;
+    overflow: hidden;
+    display: block;
+    width: 1158px;
+    margin: 0 auto;
+    padding: 0 15px;
+  }
+  body {
+    background-color: white;
+    color: #434455;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  p {
+    color: #434455;
+    font-family: "Roboto", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+  }
+  
+  /* START OF HEADER */
+  .header {
+    align-items: center;
+    height: 72px;
+    width: 1440px;
+    border-bottom: 1px solid #e7e9fc;
+  }
+  header .container {
+    display: flex;
+  }
+  
+  .nav_bar {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo {
+    text-decoration: none;
+    color: #4d5ae5;
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    margin-right: 76px
+  }
+  .logo span {
+    color: #2e2f42;
+  }
+  .nav-list {
+    display: flex;
+    gap: 40px;
+  }
+  .menu_item {
+    text-decoration: none;
+    font-family: "Roboto", serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 16px;
+    color: #2e2f42;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    padding: 24px 0
+  }
+  .menu_item:hover {
+    color: #404bbf;
+  }
+  .menu_item:focus {
+    color: #404bbf
+  }
+  address {
+    position: absolute;
+    right: 156px;
+  }
+  .address {
+    font-style: normal;
+    display: flex;
+    gap: 40px;
+  }
+  
+  .address li {
+    list-style: none;
+  }
+  .address_item{
+    font-family: "Roboto", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    color: #434455;
+    text-decoration: none;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+  }
+  .address_item:hover {
+    color: #404bbf;
+  }
+  .address_item:focus {
+    color: #404bbf;
+  }
+  
+  /* END OF HEADER */
+  
+  /* START OF SECTION 1 */
+  .button_box {
+    background-color: #2e2f42;
+    padding: 188px 0;
+  }
+  
+  h1 {
+    color: white;
+    font-family: "Roboto", serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 56px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+  }
+  .biggest_text {
+    max-width: 496px;
+    margin: 0 auto;
+  }
+  .button {
+    font-family:"Roboto", sans-serif;
+    background-color: #4d5ae5;
+    color: white;
+    text-align: center;
+    cursor: pointer;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    display: block;
+    margin: 0 auto;
+    min-width: 169px;
+    height: 56px;
+    border: none;
+    border-radius: 4px;
+  }
+  .button:hover {
+    background-color: #404BBF
+  }
+  .button:focus {
+    background-color: #404BBF
+  }
+  /* END OF SECTION 1 */
+  
+  /* START OF SECTION 2 */
+  .visually_hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
+  .features_box {
+    padding: 120px 0;
+  }
+  .features_list {
+    display: flex;
+    gap: 24px;
+  }
+  .features_list_items {
+    width: calc((100% - 72px) / 4);
+  }
+  .features {
+    color: #2e2f42;
+    font-family: "Roboto", serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    margin-bottom: 8px;
+  }
+  .features_text {
+    color: #434455;
+    font-family: "Roboto", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+  }
+  /* END OF SECTION 2 */
+  
+  /* START OF SECTION 3 */
+  .our_team {
+    font-family: "Roboto", serif;
+    font-weight: 700;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    text-align: center;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2e2f42;
+    margin-bottom: 72px;
+  }
+  .our_team_background {
+    background-color: #f4f4fd;
+    padding: 120px 0;
+  }
+  .our_team_list {
+    display: flex;
+    gap: 24px;
+  }
+  .our_team_frame {
+    background-color: #FFFFFF; 
+    width: calc((100% - 72px) / 4);
+    border-radius: 0px 0px 4px 4px;
+  }
+  .our_team_box {
+    padding: 32px 0;
+  }
+  .our_team_title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    text-align: center;
+    margin-bottom: 8px;
+  }
+  .our_team_text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+    text-align: center;
+  }
+  /* END OF SECTION 3 */
+  
+  /* START OF SECTION 4 */
+  .portfolio_section {
+    padding: 120px 0;
+  }
+  .portfolio {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2e2f42;
+    margin-bottom: 72px;
+  }
+  .portfolio_list {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 48px;
+  }
+  .portfolio_frame {
+    flex-basis: calc((100% - 3 * 24px) / 4)
+  }
+  .portfolio_item {
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
+    margin-bottom: 8px;
+  }
+  .portfolio_title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    margin-bottom: 8px;
+  }
+  .portfolio_text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+  }
+  /* END OF SECTION 4 */
+  
+  /* START OF FOOTER */
+  .footer {
+    background-color: #2e2f42;
+    padding: 100px 0;
+  }
+  .footer p {
+    color: #f4f4fd;
+  }
+  .studio_end {
+    color: #F4F4FD
+  }
+  .footer_container {
+    position: absolute;
+    left: 156px;
+  }
+  footer .logo {
+    text-decoration: none;
+    color: #4d5ae5;
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    display: inline-block;
+    margin-bottom: 16px;
+  }
+  footer .logo span {
+    color: #F4F4FD;
+  }
+  .footer_note {
+    max-width: 264px;
+  }
+  /* END OF FOOTER */
+  
